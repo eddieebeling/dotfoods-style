@@ -1,0 +1,27 @@
+{
+  "name": "dotfoods-style",
+  "version": "1.0.0",
+  "description": "Brand Colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddieebeling/dotfoods-style.git"
+  },
+  "keywords": [
+    "Design",
+    "System",
+    "Pattern",
+    "Library",
+    "Brand",
+    "Colors"
+  ],
+  "author": "Eddie Ebeling <eddie.ebeling@dotfoods.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddieebeling/dotfoods-style/issues"
+  },
+  "homepage": "https://github.com/eddieebeling/dotfoods-style#readme"
+}
