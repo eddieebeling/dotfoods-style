@@ -1,0 +1,47 @@
+/* CSS Custom Properties */
+:root {
+    --color-brand-primary: #0082ca;
+    --color-brand-primary-light: #1b7fcc;
+    --color-brand-primary-dark: #0065a4;
+    --color-brand-accent: #faba11;
+    --color-brand-accent-dark: #eaaa00;
+    --color-text-white: #ffffff;
+    --color-text-black: #000000;
+    --color-text-dark: #3f3f3f;
+    --color-text-gray-bold: #484848;
+    --color-text-gray: #6e6e6e;
+    --color-text-gray-light: #a7a7a7;
+    --color-text-gray-faint: #d3d3d3;
+    --color-text-affirm: #80bc00;
+    --color-text-affirm-dark: #598103;
+    --color-text-declare: #a47a0d;
+    --color-text-avert: #c91a1a;
+    --color-bg-white: #ffffff;
+    --color-bg-black: #000000;
+    --color-bg-midnight: #00426B;
+    --color-bg-gray-light: #f3f3f3;
+    --color-bg-gray-faint: #f9f9f9;
+    --color-bg-gray: #d3d3d3;
+    --color-bg-gray-dark: #4a4a4a;
+    --color-bg-brand-light: #e7f0f9;
+    --color-bg-affirm: #cce499;
+    --color-bg-affirm-faint: rgba(204, 228, 153, .2);
+    --color-bg-affirm-light: rgba(204, 228, 153, .3);
+    --color-bg-declare: #fff1cc;
+    --color-bg-declare-faint: rgba(255, 241, 204, .2);
+    --color-bg-declare-light: rgba(255, 241, 204, .3);
+    --color-bg-avert: #ffd1d1;
+    --color-bg-avert-faint: rgba(255, 209, 209, .2);
+    --color-bg-avert-light: rgba(255, 209, 209, .3);
+    --color-border-white: #ffffff;
+    --color-border-gray: #d3d3d3;
+    --color-border-gray-standard: #e5e5e5;
+    --color-border-gray-light: #f3f3f3;
+    --color-border-gray-dark: #6e6e6e;
+    --color-border-black: #000000;
+    --color-border-brand: #3692d9;
+    --color-border-brand-light: #b0cfee;
+    --color-border-avert: #c91a1a;
+    --color-border-affirm: #80bc00;
+    --color-border-declare: #a47a0d;
+}
