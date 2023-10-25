@@ -1,0 +1,61 @@
+const colors = {
+    /* Brand Primary Variables */
+    brandPrimary: document.documentElement.style.getPropertyValue('--color-brand-primary'),
+    brandPrimaryLight: document.documentElement.style.getPropertyValue('--color-brand-primary-light'),
+    brandPrimaryDark: document.documentElement.style.getPropertyValue('--color-brand-primary-dark)'),
+    /* Brand Accent Variables */
+    brandAccent: document.documentElement.style.getPropertyValue('--color-brand-accent'),
+    brandAccentDark: document.documentElement.style.getPropertyValue('--color-brand-accent-dark'),
+    /* Text Colors */
+    textWhite: document.documentElement.style.getPropertyValue('--color-text-white'),
+    textBlack: document.documentElement.style.getPropertyValue('--color-text-black'),
+    textDark: document.documentElement.style.getPropertyValue('--color-text-dark'),
+    textGrayBold: document.documentElement.style.getPropertyValue('--color-text-gray-bold'),
+    textGray: document.documentElement.style.getPropertyValue('--color-text-gray'),
+    textGrayLight: document.documentElement.style.getPropertyValue('--color-text-gray-light'),
+    textGrayFaint: document.documentElement.style.getPropertyValue('--color-text-gray-faint)'),
+    textBrand: document.documentElement.style.getPropertyValue('--color-brand-primary'),
+    textAffirm: document.documentElement.style.getPropertyValue('--color-text-affirm'),
+    textAffirmDark: document.documentElement.style.getPropertyValue('--color-text-affirm-dark'),
+    textDeclare: document.documentElement.style.getPropertyValue('--color-text-declare'),
+    textAvert: document.documentElement.style.getPropertyValue('--color-text-avert'),
+    /* Backgrounds */
+    bgWhite: document.documentElement.style.getPropertyValue('--color-bg-white'),
+    bgBlack: document.documentElement.style.getPropertyValue('--color-bg-black'),
+    bgMidnight: document.documentElement.style.getPropertyValue('--color-bg-midnight'),
+    bgGrayFaint: document.documentElement.style.getPropertyValue('--color-bg-gray-faint'),
+    bgGrayLight: document.documentElement.style.getPropertyValue('--color-bg-gray-light'),
+    bgGray: document.documentElement.style.getPropertyValue('--color-bg-gray'),
+    bgGrayDark: document.documentElement.style.getPropertyValue('--color-bg-gray-dark'),
+    bgBrand: document.documentElement.style.getPropertyValue('--color-brand-primary'),
+    bgBrandLight: document.documentElement.style.getPropertyValue('--color-bg-brand-light'),
+    bgBrandDark: document.documentElement.style.getPropertyValue('--color-brand-primary-dark)'),
+    bgBrandAccent: document.documentElement.style.getPropertyValue('--color-brand-accent'),
+    bgDeclare: document.documentElement.style.getPropertyValue('--color-bg-declare'),
+    bgDeclareFaint: document.documentElement.style.getPropertyValue('--color-bg-declare-faint'),
+    bgDeclareLight: document.documentElement.style.getPropertyValue('--color-bg-declare-light)'),
+    bgAvert: document.documentElement.style.getPropertyValue('--color-bg-avert'),
+    bgAvertFaint: document.documentElement.style.getPropertyValue('--color-bg-avert-faint'),
+    bgAvertLight: document.documentElement.style.getPropertyValue('--color-bg-avert-light'),
+    bgAffirm: document.documentElement.style.getPropertyValue('--color-bg-affirm'),
+    bgAffirmFaint: document.documentElement.style.getPropertyValue('--color-bg-affirm-faint'),
+    bgAffirmLight: document.documentElement.style.getPropertyValue('--color-bg-affirm-light'),
+    /* Borders */
+    borderWhite: document.documentElement.style.getPropertyValue('--color-border-white'),
+    borderDefault: document.documentElement.style.getPropertyValue('--color-border-gray'),
+    borderStandard: document.documentElement.style.getPropertyValue('--color-border-gray-standard'),
+    borderLight: document.documentElement.style.getPropertyValue('--color-border-gray-light)'),
+    borderDark: document.documentElement.style.getPropertyValue('--color-border-gray-dark'),
+    borderBlack: document.documentElement.style.getPropertyValue('--color-border-black'),
+    borderBrand: document.documentElement.style.getPropertyValue('--color-border-brand'),
+    borderBrandLight: document.documentElement.style.getPropertyValue('--color-border-brand-light'),
+    borderBrandDark: document.documentElement.style.getPropertyValue('--color-brand-primary-dark'),
+    borderAvert: document.documentElement.style.getPropertyValue('--color-border-avert'),
+    borderAffirm: document.documentElement.style.getPropertyValue('--color-border-affirm'),
+    borderAffirmDark: document.documentElement.style.getPropertyValue('--color-text-affirm-dark'),
+    borderDeclare: document.documentElement.style.getPropertyValue('--color-border-declare'),
+};
+
+export {
+    colors
+}
