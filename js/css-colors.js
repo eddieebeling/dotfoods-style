@@ -1,13 +1,10 @@
 const styles = getComputedStyle(document.documentElement);
 const colors = {
-    /* Brand Primary Variables */
     brandPrimary: styles.getPropertyValue('--color-brand-primary'),
     brandPrimaryLight: styles.getPropertyValue('--color-brand-primary-light'),
     brandPrimaryDark: styles.getPropertyValue('--color-brand-primary-dark)'),
-    /* Brand Accent Variables */
     brandAccent: styles.getPropertyValue('--color-brand-accent'),
     brandAccentDark: styles.getPropertyValue('--color-brand-accent-dark'),
-    /* Text Colors */
     textWhite: styles.getPropertyValue('--color-text-white'),
     textBlack: styles.getPropertyValue('--color-text-black'),
     textDark: styles.getPropertyValue('--color-text-dark'),
@@ -20,7 +17,6 @@ const colors = {
     textAffirmDark: styles.getPropertyValue('--color-text-affirm-dark'),
     textDeclare: styles.getPropertyValue('--color-text-declare'),
     textAvert: styles.getPropertyValue('--color-text-avert'),
-    /* Backgrounds */
     bgWhite: styles.getPropertyValue('--color-bg-white'),
     bgBlack: styles.getPropertyValue('--color-bg-black'),
     bgMidnight: styles.getPropertyValue('--color-bg-midnight'),
@@ -41,7 +37,6 @@ const colors = {
     bgAffirm: styles.getPropertyValue('--color-bg-affirm'),
     bgAffirmFaint: styles.getPropertyValue('--color-bg-affirm-faint'),
     bgAffirmLight: styles.getPropertyValue('--color-bg-affirm-light'),
-    /* Borders */
     borderWhite: styles.getPropertyValue('--color-border-white'),
     borderDefault: styles.getPropertyValue('--color-border-gray'),
     borderStandard: styles.getPropertyValue('--color-border-gray-standard'),
@@ -57,6 +52,4 @@ const colors = {
     borderDeclare: styles.getPropertyValue('--color-border-declare'),
 };
 
-export {
-    colors
-}
+export default colors;
