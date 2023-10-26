@@ -47,7 +47,7 @@ Linking to brand.css adds  CSS custom properties to the root element
 }
 ```
 CSS custom properties are referenced in the coresponding Scss variables
-``` css 
+``` scss 
 /* Scss Variables */
 $brand-primary: var(--color-brand-primary);
 $brand-primary-light: var(--color-brand-primary-light);
