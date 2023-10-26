@@ -26,7 +26,7 @@ module.exports = {
 };
 ```
 ## Brand.css
-Brand.css is a collection of CSS custom properties that is used to inform Scss variables and JS objects for use in your project. This file can be overriden or replaced if alternative themeing is necessary.    
+Brand.css is a collection of CSS custom properties that is used to inform Scss variables and JS objects for use in your project. This file can be overriden or replaced if alternative themeing is necessary without having to update your source code.    
 ``` html
 <!-- HTML -->
 <head>
@@ -34,7 +34,7 @@ Brand.css is a collection of CSS custom properties that is used to inform Scss v
     <link href="/css/brand.css" rel="stylesheet" type="text/css">
 </head>
 ```
-Linking to brand.css adds the following CSS custom properties
+Linking to brand.css adds  CSS custom properties to the root element
 ``` css
 /* CSS Custom Properties */
 :root {
@@ -43,9 +43,10 @@ Linking to brand.css adds the following CSS custom properties
     --color-brand-primary-dark: #0065a4;
     --color-brand-accent: #faba11;
     --color-brand-accent-dark: #eaaa00;
+    ...
 }
 ```
-CSS custom properties are referenced in the following Scss variables
+CSS custom properties are referenced in the coresponding Scss variables
 ``` css 
 /* Scss Variables */
 $brand-primary: var(--color-brand-primary);
@@ -53,8 +54,9 @@ $brand-primary-light: var(--color-brand-primary-light);
 $brand-primary-dark: var(--color-brand-primary-dark);
 $brand-accent: var(--color-brand-accent);
 $brand-accent-dark: var(--color-brand-accent-dark);
+...
 ```
-And can also be accessed using JavaScript
+And can also be accessed using JavaScript in code
 ``` js
 // JavaScript Object
 const styles = getComputedStyle(document.documentElement);
@@ -65,6 +67,7 @@ const colors = {
     brandPrimaryDark: styles.getPropertyValue('--color-brand-primary-dark)'),
     brandAccent: styles.getPropertyValue('--color-brand-accent'),
     brandAccentDark: styles.getPropertyValue('--color-brand-accent-dark')
+    ...
 }
 ```
 ## How to use
