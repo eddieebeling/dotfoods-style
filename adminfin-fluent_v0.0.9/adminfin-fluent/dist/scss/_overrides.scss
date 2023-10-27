@@ -1,0 +1,1474 @@
+// Compatible with @progress/kendo-theme-fluent v.6.4.0
+
+%tb-typography {
+  @include typography-classes($tb-typography);
+}
+
+%tb-effects {
+  @include effects-classes($tb-effects);
+}
+
+    .k-button.k-button-solid-primary{
+        box-shadow: none;
+                border-bottom-color: var(--tb-color-light-blue-secondary);
+                border-left-color: var(--tb-color-light-blue-secondary);
+                border-right-color: var(--tb-color-light-blue-secondary);
+                border-top-color: var(--tb-color-light-blue-secondary);
+                border-bottom-style: solid;
+                border-left-style: solid;
+                border-right-style: solid;
+                border-top-style: solid;
+                background-color: var(--tb-color-light-blue-secondary);
+                background-image: linear-gradient(transparent, transparent);
+                outline-style: solid;
+                color: var(--tb-color-white-primary);
+        
+}
+    .k-button{
+        border-bottom-color: var(--tb-color-medium-gray-43pct);
+                border-left-color: var(--tb-color-medium-gray-43pct);
+                border-right-color: var(--tb-color-medium-gray-43pct);
+                border-top-color: var(--tb-color-medium-gray-43pct);
+                outline-offset: inherit;
+                outline-style: solid;
+                outline-width: inherit;
+                border-bottom-style: solid;
+                border-left-style: solid;
+                border-right-style: solid;
+                border-top-style: solid;
+                background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-rounded-md{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-button.k-button-solid-base{
+        color: var(--tb-color-dark-gray-25pct);
+                background-color: var(--tb-color-white-primary);
+        
+}
+    .k-button.k-icon-button{
+        border-bottom-color: var(--tb-color-medium-gray-43pct);
+                border-left-color: var(--tb-color-medium-gray-43pct);
+                border-right-color: var(--tb-color-medium-gray-43pct);
+                border-top-color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-button.k-button-solid-primary .k-button-text{
+        border-bottom-style: none;
+                border-left-style: none;
+                border-right-style: none;
+                border-top-style: none;
+        
+}
+    .k-button.k-button-solid-primary.k-focus, .k-button.k-button-solid-primary.k-state-focus, .k-button.k-button-solid-primary.k-state-focused, .k-button.k-button-solid-primary:focus{
+        border-bottom-style: solid;
+                border-left-style: solid;
+                border-right-style: solid;
+                border-top-style: solid;
+                border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                background-color: var(--tb-color-dot-blue-primary);
+                background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-button-solid-primary.k-hover, .k-button.k-button-solid-primary.k-state-hover, .k-button.k-button-solid-primary.k-state-hovered, .k-button.k-button-solid-primary:hover{
+        background-color: var(--tb-color-dot-blue-primary);
+                background-image: linear-gradient(transparent, transparent);
+                border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+        
+}
+    .k-button.k-focus, .k-button.k-state-focus, .k-button.k-state-focused, .k-button:focus{
+        border-bottom-style: solid;
+                border-left-style: solid;
+                border-right-style: solid;
+                border-top-style: solid;
+                background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-focus.k-button-solid-base, .k-button.k-state-focus.k-button-solid-base, .k-button.k-state-focused.k-button-solid-base, .k-button:focus.k-button-solid-base{
+        color: var(--tb-color-dark-gray-25pct);
+                background-color: var(--tb-color-light-gray-90pct);
+        
+}
+    .k-button.k-hover.k-button-solid-base, .k-button.k-state-hover.k-button-solid-base, .k-button.k-state-hovered.k-button-solid-base, .k-button:hover.k-button-solid-base{
+        background-color: var(--tb-color-light-gray-90pct);
+        
+}
+    .k-button.k-hover, .k-button.k-state-hover, .k-button.k-state-hovered, .k-button:hover{
+        background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-button-solid-primary.k-disabled, .k-button.k-button-solid-primary.k-state-disabled, .k-button.k-button-solid-primary:disabled{
+        background-color: var(--tb-color-light-gray-95pct);
+                background-image: linear-gradient(transparent, transparent);
+                color: var(--tb-color-medium-gray-66pct);
+                outline-style: none;
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-button.k-disabled, .k-button.k-state-disabled, .k-button:disabled{
+        color: var(--tb-color-medium-gray-66pct);
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-disabled.k-button-solid-base, .k-button.k-state-disabled.k-button-solid-base, .k-button:disabled.k-button-solid-base{
+        background-color: var(--tb-color-white-primary);
+        
+}
+    .k-button.k-button-flat{
+        color: var(--tb-color-dark-gray-25pct);
+                box-shadow: none;
+                opacity: inherit;
+        
+}
+    .k-button.k-button-flat.k-button-flat-base{
+        border-bottom-color: var(--tb-color-medium-gray-43pct) !important;
+                border-left-color: var(--tb-color-medium-gray-43pct) !important;
+                border-right-color: var(--tb-color-medium-gray-43pct) !important;
+                border-top-color: var(--tb-color-medium-gray-43pct) !important;
+                background-color: var(--tb-color-white-primary) !important;
+                background-image: none !important;
+        
+}
+    .k-button.k-button-flat.k-hover.k-button-flat-base, .k-button.k-button-flat.k-state-hover.k-button-flat-base, .k-button.k-button-flat.k-state-hovered.k-button-flat-base, .k-button.k-button-flat:hover.k-button-flat-base{
+        background-color: var(--tb-color-light-gray-90pct) !important;
+                background-image: none !important;
+        
+}
+    .k-button.k-button-flat.k-focus.k-button-flat-base, .k-button.k-button-flat.k-state-focus.k-button-flat-base, .k-button.k-button-flat.k-state-focused.k-button-flat-base, .k-button.k-button-flat:focus.k-button-flat-base{
+        background-color: var(--tb-color-light-gray-90pct) !important;
+                background-image: none !important;
+        
+}
+    .k-button.k-button-outline.k-focus, .k-button.k-button-outline.k-state-focus, .k-button.k-button-outline.k-state-focused, .k-button.k-button-outline:focus{
+        outline-style: solid;
+                background-image: none;
+        
+}
+    .k-button.k-button-outline.k-focus.k-button-outline-base, .k-button.k-button-outline.k-state-focus.k-button-outline-base, .k-button.k-button-outline.k-state-focused.k-button-outline-base, .k-button.k-button-outline:focus.k-button-outline-base{
+        background-color: var(--tb-color-faint-light-blue);
+        
+}
+    .k-button.k-button-flat.k-button-flat-primary{
+        color: var(--tb-color-white-primary);
+                background-color: var(--tb-color-light-blue-secondary);
+                background-image: none;
+        
+}
+    .k-button.k-button-flat.k-button-flat-primary.k-hover, .k-button.k-button-flat.k-button-flat-primary.k-state-hover, .k-button.k-button-flat.k-button-flat-primary.k-state-hovered, .k-button.k-button-flat.k-button-flat-primary:hover{
+        background-color: var(--tb-color-dot-blue-primary);
+                background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-button-flat.k-button-flat-primary.k-focus::after, .k-button.k-button-flat.k-button-flat-primary.k-state-focus::after, .k-button.k-button-flat.k-button-flat-primary.k-state-focused::after, .k-button.k-button-flat.k-button-flat-primary:focus::after{
+        outline-color: transparent;
+        
+}
+    .k-button.k-button-flat.k-focus::after, .k-button.k-button-flat.k-state-focus::after, .k-button.k-button-flat.k-state-focused::after, .k-button.k-button-flat:focus::after{
+        outline-color: transparent !important;
+        
+}
+    .k-button.k-focus::after, .k-button.k-state-focus::after, .k-button.k-state-focused::after, .k-button:focus::after{
+        outline-color: transparent;
+        
+}
+    .k-button.k-button-flat.k-disabled, .k-button.k-button-flat.k-state-disabled, .k-button.k-button-flat:disabled{
+        border-bottom-color: var(--tb-color-medium-gray-66pct) !important;
+                border-left-color: var(--tb-color-medium-gray-66pct) !important;
+                border-right-color: var(--tb-color-medium-gray-66pct) !important;
+                border-top-color: var(--tb-color-medium-gray-66pct) !important;
+                color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-button.k-button-flat.k-disabled.k-button-flat-base, .k-button.k-button-flat.k-state-disabled.k-button-flat-base, .k-button.k-button-flat:disabled.k-button-flat-base{
+        background-color: var(--tb-color-light-gray-95pct) !important;
+                background-image: none !important;
+        
+}
+    .k-button.k-button-flat.k-button-flat-primary.k-disabled, .k-button.k-button-flat.k-button-flat-primary.k-state-disabled, .k-button.k-button-flat.k-button-flat-primary:disabled{
+        background-color: var(--tb-color-light-gray-95pct);
+                background-image: none;
+        
+}
+    .k-button.k-button-flat.k-button-flat-primary.k-active, .k-button.k-button-flat.k-button-flat-primary.k-state-active, .k-button.k-button-flat.k-button-flat-primary:active{
+        background-color: var(--tb-color-light-blue-secondary);
+                background-image: none;
+        
+}
+    .k-button.k-button-outline.k-button-outline-primary{
+        color: var(--tb-color-dot-blue-primary);
+                border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+        
+}
+    .k-button.k-button-outline.k-button-outline-base{
+        color: var(--tb-color-dot-blue-primary);
+                background-color: transparent;
+        
+}
+    .k-button.k-button-outline{
+        border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                background-image: linear-gradient(var(--tb-color-light-gray-98pct), var(--tb-color-light-gray-98pct));
+        
+}
+    .k-button.k-button-outline.k-hover, .k-button.k-button-outline.k-state-hover, .k-button.k-button-outline.k-state-hovered, .k-button.k-button-outline:hover{
+        color: var(--tb-color-dark-blue-secondary);
+                background-image: linear-gradient(var(--tb-color-faint-light-blue), var(--tb-color-faint-light-blue));
+        
+}
+    .k-button.k-button-outline.k-hover.k-button-outline-base, .k-button.k-button-outline.k-state-hover.k-button-outline-base, .k-button.k-button-outline.k-state-hovered.k-button-outline-base, .k-button.k-button-outline:hover.k-button-outline-base{
+        background-color: transparent;
+        
+}
+    .k-button.k-button-outline.k-active, .k-button.k-button-outline.k-state-active, .k-button.k-button-outline:active{
+        color: var(--tb-color-dot-blue-primary);
+                background-image: linear-gradient(var(--tb-color-light-gray-98pct), var(--tb-color-light-gray-98pct));
+        
+}
+    .k-button.k-button-outline.k-active.k-button-outline-base, .k-button.k-button-outline.k-state-active.k-button-outline-base, .k-button.k-button-outline:active.k-button-outline-base{
+        background-color: transparent;
+        
+}
+    .k-button.k-button-outline.k-selected{
+        color: var(--tb-color-dot-blue-primary);
+                background-image: linear-gradient(var(--tb-color-light-gray-98pct), var(--tb-color-light-gray-98pct));
+        
+}
+    .k-button.k-button-outline.k-selected.k-button-outline-base{
+        background-color: transparent;
+        
+}
+    .k-button.k-button-outline.k-button-outline-primary.k-hover, .k-button.k-button-outline.k-button-outline-primary.k-state-hover, .k-button.k-button-outline.k-button-outline-primary.k-state-hovered, .k-button.k-button-outline.k-button-outline-primary:hover{
+        background-color: transparent;
+                background-image: linear-gradient(var(--tb-color-faint-light-blue), var(--tb-color-faint-light-blue));
+                color: var(--tb-color-dark-blue-secondary);
+        
+}
+    .k-button.k-button-outline.k-disabled, .k-button.k-button-outline.k-state-disabled, .k-button.k-button-outline:disabled{
+        color: var(--tb-color-medium-gray-66pct);
+                border-bottom-color: var(--tb-color-light-gray-83pct);
+                border-left-color: var(--tb-color-light-gray-83pct);
+                border-right-color: var(--tb-color-light-gray-83pct);
+                border-top-color: var(--tb-color-light-gray-83pct);
+        
+}
+    .k-textbox.k-input.k-input-solid.k-focus::after, .k-textbox.k-input.k-input-solid.k-state-focus::after, .k-textbox.k-input.k-input-solid.k-state-focused::after, .k-textbox.k-input.k-input-solid:focus::after{
+        border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty .k-input-inner{
+        outline-color: unset;
+                outline-style: none;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-43pct);
+                border-bottom-style: none;
+                border-left-style: none;
+                border-right-style: none;
+                border-top-style: none;
+                border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+        
+}
+    .k-textbox.k-input.k-input-solid .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-textbox.k-input.k-input-solid .k-input-inner{
+        color: inherit;
+                border-bottom-left-radius: inherit;
+                border-bottom-right-radius: inherit;
+                border-top-left-radius: inherit;
+                border-top-right-radius: inherit;
+                border-bottom-color: initial;
+                border-bottom-style: solid;
+                border-bottom-width: 0px;
+                border-left-color: initial;
+                border-left-style: solid;
+                border-left-width: 0px;
+                border-right-color: initial;
+                border-right-style: solid;
+                border-right-width: 0px;
+                border-top-color: initial;
+                border-top-style: solid;
+                border-top-width: 0px;
+        
+}
+    .k-textbox.k-input.k-input-solid{
+        color: var(--tb-color-black);
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                outline-style: auto;
+                background-color: var(--tb-color-white-primary);
+                background-image: none;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-rounded-md{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid.k-focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focused .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.k-invalid:focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focused .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched:focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focus .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focused .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty:focus .k-input-inner::placeholder{
+        color: unset;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-disabled .k-input-inner, .k-textbox.k-input.k-input-solid.k-state-disabled .k-input-inner, .k-textbox.k-input.k-input-solid:disabled .k-input-inner{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-color: var(--tb-color-light-gray-95pct);
+                border-left-color: var(--tb-color-light-gray-95pct);
+                border-right-color: var(--tb-color-light-gray-95pct);
+                border-top-color: var(--tb-color-light-gray-95pct);
+                outline-color: inherit;
+                color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-textbox.k-input.k-input-solid.k-disabled, .k-textbox.k-input.k-input-solid.k-state-disabled, .k-textbox.k-input.k-input-solid:disabled{
+        border-bottom-color: var(--tb-color-light-gray-83pct);
+                border-left-color: var(--tb-color-light-gray-83pct);
+                border-right-color: var(--tb-color-light-gray-83pct);
+                border-top-color: var(--tb-color-light-gray-83pct);
+                color: var(--tb-color-medium-gray-43pct);
+                background-color: var(--tb-color-light-gray-95pct);
+                background-image: none;
+        
+}
+    .k-textbox.k-input.k-input-solid .k-input-suffix{
+        background-color: initial;
+                background-image: none;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid.k-focus.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-focus.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-focus.k-rounded-md, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focus.k-rounded-md, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focused.k-rounded-md, .k-textbox.k-input.k-input-solid.k-invalid:focus.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focus.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focused.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched:focus.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focus.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focused.k-rounded-md, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty:focus.k-rounded-md{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid.k-focus, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-focus, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-focus, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focus, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focused, .k-textbox.k-input.k-input-solid.k-invalid:focus, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focus, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focused, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched:focus, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focus, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focused, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty:focus{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-textbox.k-input.k-input-solid.k-focus, .k-textbox.k-input.k-input-solid.k-state-focus, .k-textbox.k-input.k-input-solid.k-state-focused, .k-textbox.k-input.k-input-solid:focus{
+        background-color: var(--tb-color-white-primary);
+                background-image: none;
+                outline-style: solid;
+                border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-style: none;
+                border-left-style: none;
+                border-right-style: none;
+                border-top-style: none;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-hover, .k-textbox.k-input.k-input-solid.k-state-hover, .k-textbox.k-input.k-input-solid.k-state-hovered, .k-textbox.k-input.k-input-solid:hover{
+        border-bottom-color: var(--tb-color-medium-gray-43pct);
+                border-left-color: var(--tb-color-medium-gray-43pct);
+                border-right-color: var(--tb-color-medium-gray-43pct);
+                border-top-color: var(--tb-color-medium-gray-43pct);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                background-color: var(--tb-color-white-primary);
+                background-image: none;
+        
+}
+    .k-textbox.k-input.k-input-outline{
+        border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                color: var(--tb-color-dark-gray-25pct);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-rounded-md{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-hover .k-input-inner, .k-textbox.k-input.k-input-outline.k-state-hover .k-input-inner, .k-textbox.k-input.k-input-outline.k-state-hovered .k-input-inner, .k-textbox.k-input.k-input-outline:hover .k-input-inner{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-hover, .k-textbox.k-input.k-input-outline.k-state-hover, .k-textbox.k-input.k-input-outline.k-state-hovered, .k-textbox.k-input.k-input-outline:hover{
+        border-bottom-color: var(--tb-color-dark-gray-29pct);
+                border-left-color: var(--tb-color-dark-gray-29pct);
+                border-right-color: var(--tb-color-dark-gray-29pct);
+                border-top-color: var(--tb-color-dark-gray-29pct);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-focus .k-input-inner, .k-textbox.k-input.k-input-outline.k-state-focus .k-input-inner, .k-textbox.k-input.k-input-outline.k-state-focused .k-input-inner, .k-textbox.k-input.k-input-outline:focus .k-input-inner{
+        border-bottom-color: transparent;
+                border-bottom-style: solid;
+                border-bottom-width: 0px;
+                border-left-color: transparent;
+                border-left-style: solid;
+                border-left-width: 0px;
+                border-right-color: transparent;
+                border-right-style: solid;
+                border-right-width: 0px;
+                border-top-color: transparent;
+                border-top-style: solid;
+                border-top-width: 0px;
+                border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-focus, .k-textbox.k-input.k-input-outline.k-state-focus, .k-textbox.k-input.k-input-outline.k-state-focused, .k-textbox.k-input.k-input-outline:focus{
+        border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+                border-right-color: transparent;
+                border-top-color: transparent;
+        
+}
+    .k-textbox.k-input.k-input-outline.k-invalid.k-focus, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-focus, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-focus, .k-textbox.k-input.k-input-outline.k-invalid.k-state-focus, .k-textbox.k-input.k-input-outline.k-invalid.k-state-focused, .k-textbox.k-input.k-input-outline.k-invalid:focus, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-state-focus, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-state-focused, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched:focus, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-state-focus, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-state-focused, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty:focus{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+                outline-color: inherit;
+                outline-width: inherit;
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-textbox.k-input.k-input-outline .k-input-inner::placeholder{
+        color: var(--tb-color-light-gray-83pct);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-disabled, .k-textbox.k-input.k-input-outline.k-state-disabled, .k-textbox.k-input.k-input-outline:disabled{
+        background-color: var(--tb-color-light-gray-95pct) !important;
+                background-image: none !important;
+                border-bottom-color: var(--tb-color-light-gray-83pct);
+                border-left-color: var(--tb-color-light-gray-83pct);
+                border-right-color: var(--tb-color-light-gray-83pct);
+                border-top-color: var(--tb-color-light-gray-83pct);
+                color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-textbox.k-input.k-input-solid.k-disabled .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid.k-state-disabled .k-input-inner::placeholder, .k-textbox.k-input.k-input-solid:disabled .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-invalid.k-focus .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-focus .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-focus .k-input-inner, .k-textbox.k-input.k-input-outline.k-invalid.k-state-focus .k-input-inner, .k-textbox.k-input.k-input-outline.k-invalid.k-state-focused .k-input-inner, .k-textbox.k-input.k-input-outline.k-invalid:focus .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-state-focus .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-state-focused .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched:focus .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-state-focus .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-state-focused .k-input-inner, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty:focus .k-input-inner{
+        border-bottom-left-radius: inherit;
+                border-bottom-right-radius: inherit;
+                border-top-left-radius: inherit;
+                border-top-right-radius: inherit;
+        
+}
+    .k-textbox.k-input.k-input-outline.k-invalid, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-textbox.k-input.k-input-flat.k-focus, .k-textbox.k-input.k-input-flat.k-state-focus, .k-textbox.k-input.k-input-flat.k-state-focused, .k-textbox.k-input.k-input-flat:focus{
+        color: var(--tb-color-dark-gray-25pct);
+                outline-style: solid;
+                outline-width: inherit;
+                border-bottom-color: var(--tb-color-dark-gray-25pct);
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+        
+}
+    .k-textbox.k-input.k-input-flat{
+        color: var(--tb-color-dark-gray-25pct);
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-style: solid;
+                border-bottom-width: 0.15rem;
+        
+}
+    .k-textbox.k-input.k-input-flat.k-hover, .k-textbox.k-input.k-input-flat.k-state-hover, .k-textbox.k-input.k-input-flat.k-state-hovered, .k-textbox.k-input.k-input-flat:hover{
+        border-bottom-color: var(--tb-color-dark-gray-25pct);
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+        
+}
+    .k-textbox.k-input.k-input-flat.k-invalid, .k-textbox.k-input.k-input-flat.ng-invalid.ng-touched, .k-textbox.k-input.k-input-flat.ng-invalid.ng-dirty{
+        border-bottom-color: var(--tb-color-crimson-secondary);
+                border-bottom-style: solid;
+                border-bottom-width: 2px;
+        
+}
+    .k-textbox.k-input.k-input-flat.k-disabled, .k-textbox.k-input.k-input-flat.k-state-disabled, .k-textbox.k-input.k-input-flat:disabled{
+        color: var(--tb-color-medium-gray-66pct);
+                border-bottom-color: var(--tb-color-light-gray-83pct);
+                border-bottom-style: solid;
+                border-bottom-width: 0.15rem;
+                background-color: var(--tb-color-light-gray-98pct) !important;
+                background-image: none !important;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid.k-focus .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-focus .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-focus .k-input-inner, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focus .k-input-inner, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focused .k-input-inner, .k-textbox.k-input.k-input-solid.k-invalid:focus .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focus .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focused .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched:focus .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focus .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focused .k-input-inner, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty:focus .k-input-inner{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textarea.k-invalid.k-rounded-md, .k-textarea.ng-invalid.ng-touched.k-rounded-md, .k-textarea.ng-invalid.ng-dirty.k-rounded-md{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-textarea.k-invalid.k-input, .k-textarea.ng-invalid.ng-touched.k-input, .k-textarea.ng-invalid.ng-dirty.k-input{
+        border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+        
+}
+    .k-textarea.k-input{
+        border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+        
+}
+    .k-textarea.k-rounded-md{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-input.k-input-solid{
+        color: var(--tb-color-black);
+        
+}
+    .k-textarea.k-hover, .k-textarea.k-state-hover, .k-textarea.k-state-hovered, .k-textarea:hover{
+        border-bottom-color: var(--tb-color-medium-gray-43pct);
+                border-left-color: var(--tb-color-medium-gray-43pct);
+                border-right-color: var(--tb-color-medium-gray-43pct);
+                border-top-color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-textarea.k-hover.k-input-solid, .k-textarea.k-state-hover.k-input-solid, .k-textarea.k-state-hovered.k-input-solid, .k-textarea:hover.k-input-solid{
+        color: var(--tb-color-dark-gray-25pct);
+        
+}
+    .k-textarea.k-disabled, .k-textarea.k-state-disabled, .k-textarea:disabled{
+        border-bottom-color: var(--tb-color-light-gray-83pct);
+                border-left-color: var(--tb-color-light-gray-83pct);
+                border-right-color: var(--tb-color-light-gray-83pct);
+                border-top-color: var(--tb-color-light-gray-83pct);
+                background-image: none;
+        
+}
+    .k-textarea.k-disabled.k-input-solid, .k-textarea.k-state-disabled.k-input-solid, .k-textarea:disabled.k-input-solid{
+        color: var(--tb-color-medium-gray-43pct);
+                background-color: var(--tb-color-light-gray-95pct);
+        
+}
+    .k-textarea.k-disabled .k-input-inner::placeholder, .k-textarea.k-state-disabled .k-input-inner::placeholder, .k-textarea:disabled .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-textarea.k-disabled .k-input-inner, .k-textarea.k-state-disabled .k-input-inner, .k-textarea:disabled .k-input-inner{
+        color: var(--tb-color-medium-gray-43pct);
+                background-color: var(--tb-color-light-gray-95pct);
+                background-image: none;
+        
+}
+    .k-button.k-active.k-button-solid-base, .k-button.k-state-active.k-button-solid-base, .k-button:active.k-button-solid-base{
+        background-color: inherit;
+        
+}
+    .k-button.k-active, .k-button.k-state-active, .k-button:active{
+        background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-selected.k-button-solid-base{
+        background-color: inherit;
+        
+}
+    .k-button.k-selected{
+        background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-button.k-button-flat.k-active.k-button-flat-base, .k-button.k-button-flat.k-state-active.k-button-flat-base, .k-button.k-button-flat:active.k-button-flat-base{
+        background-color: var(--tb-color-white-primary) !important;
+                background-image: none !important;
+        
+}
+    .k-button.k-button-flat.k-button-flat-primary.k-focus, .k-button.k-button-flat.k-button-flat-primary.k-state-focus, .k-button.k-button-flat.k-button-flat-primary.k-state-focused, .k-button.k-button-flat.k-button-flat-primary:focus{
+        background-color: var(--tb-color-dot-blue-primary);
+                background-image: none;
+        
+}
+    .k-button.k-button-outline.k-button-outline-primary.k-focus, .k-button.k-button-outline.k-button-outline-primary.k-state-focus, .k-button.k-button-outline.k-button-outline-primary.k-state-focused, .k-button.k-button-outline.k-button-outline-primary:focus{
+        background-color: var(--tb-color-faint-light-blue);
+                background-image: none;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+                background-color: var(--tb-color-white-primary);
+                background-image: none;
+        
+}
+    .k-textbox.k-input.k-input-solid.k-invalid.k-focus::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-focus::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-focus::after, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focus::after, .k-textbox.k-input.k-input-solid.k-invalid.k-state-focused::after, .k-textbox.k-input.k-input-solid.k-invalid:focus::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focus::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched.k-state-focused::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-touched:focus::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focus::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty.k-state-focused::after, .k-textbox.k-input.k-input-solid.ng-invalid.ng-dirty:focus::after{
+        border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+        
+}
+    .k-textbox.k-input.k-input-outline.k-focus::after, .k-textbox.k-input.k-input-outline.k-state-focus::after, .k-textbox.k-input.k-input-outline.k-state-focused::after, .k-textbox.k-input.k-input-outline:focus::after{
+        border-bottom-color: var(--tb-color-medium-gray-43pct);
+                border-left-color: var(--tb-color-medium-gray-43pct);
+                border-right-color: var(--tb-color-medium-gray-43pct);
+                border-top-color: var(--tb-color-medium-gray-43pct);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+        
+}
+    .k-textbox.k-input.k-input-outline.k-invalid.k-focus::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-focus::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-focus::after, .k-textbox.k-input.k-input-outline.k-invalid.k-state-focus::after, .k-textbox.k-input.k-input-outline.k-invalid.k-state-focused::after, .k-textbox.k-input.k-input-outline.k-invalid:focus::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-state-focus::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched.k-state-focused::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-touched:focus::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-state-focus::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty.k-state-focused::after, .k-textbox.k-input.k-input-outline.ng-invalid.ng-dirty:focus::after{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-textbox.k-input.k-input-flat.k-invalid.k-focus::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-touched.k-focus::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-dirty.k-focus::after, .k-textbox.k-input.k-input-flat.k-invalid.k-state-focus::after, .k-textbox.k-input.k-input-flat.k-invalid.k-state-focused::after, .k-textbox.k-input.k-input-flat.k-invalid:focus::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-touched.k-state-focus::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-touched.k-state-focused::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-touched:focus::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-dirty.k-state-focus::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-dirty.k-state-focused::after, .k-textbox.k-input.k-input-flat.ng-invalid.ng-dirty:focus::after{
+        border-bottom-color: var(--tb-color-crimson-secondary);
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+        
+}
+    .k-textbox.k-input.k-input-flat.k-focus::after, .k-textbox.k-input.k-input-flat.k-state-focus::after, .k-textbox.k-input.k-input-flat.k-state-focused::after, .k-textbox.k-input.k-input-flat:focus::after{
+        border-bottom-color: var(--tb-color-dark-gray-25pct);
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+        
+}
+    .k-textarea.k-state-focus-within, .k-textarea:focus-within{
+        border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                outline-color: var(--tb-color-dot-blue-primary);
+                outline-offset: -1px;
+        
+}
+    .k-textarea.k-state-focus-within.k-input, .k-textarea:focus-within.k-input{
+        outline-style: solid;
+                outline-width: 2px;
+        
+}
+    .k-textarea.k-state-focus-within::after, .k-textarea:focus-within::after{
+        border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+                border-bottom-left-radius: var(--tb-dot-border-radius-small);
+                border-bottom-right-radius: var(--tb-dot-border-radius-small);
+                border-top-left-radius: var(--tb-dot-border-radius-small);
+                border-top-right-radius: var(--tb-dot-border-radius-small);
+        
+}
+    .k-textarea.k-invalid.k-state-focus-within::after, .k-textarea.ng-invalid.ng-touched.k-state-focus-within::after, .k-textarea.ng-invalid.ng-dirty.k-state-focus-within::after, .k-textarea.k-invalid:focus-within::after, .k-textarea.ng-invalid.ng-touched:focus-within::after, .k-textarea.ng-invalid.ng-dirty:focus-within::after{
+        border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+                border-bottom-left-radius: var(--tb-kendo-border-radius-md);
+                border-bottom-right-radius: var(--tb-kendo-border-radius-md);
+                border-top-left-radius: var(--tb-kendo-border-radius-md);
+                border-top-right-radius: var(--tb-kendo-border-radius-md);
+        
+}
+    .k-input.k-input-solid{
+        color: var(--tb-color-black);
+        
+}
+    .k-input{
+        border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                outline-color: transparent;
+        
+}
+    .k-input.k-rounded-md{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-input.k-hover, .k-input.k-state-hover, .k-input.k-state-hovered, .k-input:hover{
+        border-bottom-color: var(--tb-color-medium-gray-43pct);
+                border-left-color: var(--tb-color-medium-gray-43pct);
+                border-right-color: var(--tb-color-medium-gray-43pct);
+                border-top-color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-input.k-focus, .k-input.k-state-focus, .k-input.k-state-focused, .k-input:focus{
+        border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                outline-color: var(--tb-color-dot-blue-primary);
+                outline-style: solid;
+                outline-width: 2px;
+                outline-offset: -1px;
+        
+}
+    .k-input.k-focus::placeholder, .k-input.k-state-focus::placeholder, .k-input.k-state-focused::placeholder, .k-input:focus::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-input.k-invalid, .k-input.ng-invalid.ng-touched, .k-input.ng-invalid.ng-dirty{
+        border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+                background-image: none;
+        
+}
+    .k-input.k-invalid.k-input-solid, .k-input.ng-invalid.ng-touched.k-input-solid, .k-input.ng-invalid.ng-dirty.k-input-solid{
+        background-color: initial;
+        
+}
+    .k-input.k-disabled, .k-input.k-state-disabled, .k-input:disabled{
+        border-bottom-color: var(--tb-color-light-gray-83pct);
+                border-left-color: var(--tb-color-light-gray-83pct);
+                border-right-color: var(--tb-color-light-gray-83pct);
+                border-top-color: var(--tb-color-light-gray-83pct);
+                color: var(--tb-color-medium-gray-43pct);
+                background-image: none;
+        
+}
+    .k-input.k-disabled.k-input-solid, .k-input.k-state-disabled.k-input-solid, .k-input:disabled.k-input-solid{
+        background-color: var(--tb-color-light-gray-95pct);
+        
+}
+    .k-textbox.k-input.k-input-outline.k-disabled .k-input-inner, .k-textbox.k-input.k-input-outline.k-state-disabled .k-input-inner, .k-textbox.k-input.k-input-outline:disabled .k-input-inner{
+        background-color: var(--tb-color-light-gray-95pct);
+                background-image: none;
+                color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-input.k-disabled::placeholder, .k-input.k-state-disabled::placeholder, .k-input:disabled::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-input.k-invalid::placeholder, .k-input.ng-invalid.ng-touched::placeholder, .k-input.ng-invalid.ng-dirty::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-input.k-invalid.k-focus::placeholder, .k-input.ng-invalid.ng-touched.k-focus::placeholder, .k-input.ng-invalid.ng-dirty.k-focus::placeholder, .k-input.k-invalid.k-state-focus::placeholder, .k-input.k-invalid.k-state-focused::placeholder, .k-input.k-invalid:focus::placeholder, .k-input.ng-invalid.ng-touched.k-state-focus::placeholder, .k-input.ng-invalid.ng-touched.k-state-focused::placeholder, .k-input.ng-invalid.ng-touched:focus::placeholder, .k-input.ng-invalid.ng-dirty.k-state-focus::placeholder, .k-input.ng-invalid.ng-dirty.k-state-focused::placeholder, .k-input.ng-invalid.ng-dirty:focus::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-textarea.k-invalid .k-input-inner::placeholder, .k-textarea.ng-invalid.ng-touched .k-input-inner::placeholder, .k-textarea.ng-invalid.ng-dirty .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-textarea .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-input::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-textbox.k-input.k-input-solid .k-input-inner.k-state-readonly,.k-textbox.k-input.k-input-solid  .k-input-inner[readonly]{
+        color: var(--tb-color-dark-gray-25pct);
+                background-color: var(--tb-color-white-primary);
+                background-image: none;
+        
+}
+    .k-upload{
+        color: var(--tb-color-dark-gray-25pct);
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+        
+}
+    .k-upload .k-dropzone.k-upload-dropzone .k-upload-status{
+        color: var(--tb-color-dark-gray-25pct);
+        
+}
+    .k-upload .k-upload-files .k-file .k-file-single .k-file-icon-wrapper{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-upload .k-dropzone .k-upload-button-wrap .k-upload-button{
+        background-color: var(--tb-color-white-primary);
+                background-image: linear-gradient(var(--tb-color-light-blue-secondary), var(--tb-color-light-blue-secondary));
+                color: var(--tb-color-white-primary);
+                border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+        
+}
+    .k-upload .k-dropzone .k-upload-button-wrap .k-upload-button.k-button{
+        border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+        
+}
+    .k-upload .k-dropzone .k-upload-button-wrap .k-upload-button.k-focus::after,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button.k-state-focus::after,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button.k-state-focused::after,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button:focus::after{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+                background-color: initial;
+                background-image: none;
+                z-index: 1;
+        
+}
+    .k-upload .k-dropzone .k-upload-button-wrap .k-upload-button.k-focus,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button.k-state-focus,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button.k-state-focused,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button:focus{
+        border-bottom-color: var(--tb-color-dark-blue-secondary);
+                border-left-color: var(--tb-color-dark-blue-secondary);
+                border-right-color: var(--tb-color-dark-blue-secondary);
+                border-top-color: var(--tb-color-dark-blue-secondary);
+                background-color: var(--tb-color-dot-blue-primary);
+                background-image: linear-gradient(transparent, transparent);
+        
+}
+    .k-upload .k-dropzone.k-upload-dropzone.k-hover,.k-upload  .k-dropzone.k-upload-dropzone.k-state-hover,.k-upload  .k-dropzone.k-upload-dropzone.k-state-hovered,.k-upload  .k-dropzone.k-upload-dropzone:hover{
+        border-bottom-color: var(--tb-color-white-primary);
+                border-bottom-style: solid;
+                border-bottom-width: 0px;
+                border-left-color: var(--tb-color-white-primary);
+                border-left-style: solid;
+                border-left-width: 0px;
+                border-right-color: var(--tb-color-white-primary);
+                border-right-style: solid;
+                border-right-width: 0px;
+                border-top-color: var(--tb-color-white-primary);
+                border-top-style: solid;
+                border-top-width: 0px;
+                background-color: var(--tb-color-white-primary);
+                background-image: none;
+        
+}
+    .k-upload .k-dropzone.k-upload-dropzone.k-active,.k-upload  .k-dropzone.k-upload-dropzone.k-state-active,.k-upload  .k-dropzone.k-upload-dropzone:active{
+        background-color: var(--tb-color-white-primary);
+                background-image: none;
+        
+}
+    .k-upload .k-dropzone.k-upload-dropzone{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-upload .k-upload-files .k-file.k-focus,.k-upload .k-upload-files  .k-file.k-state-focus,.k-upload .k-upload-files  .k-file.k-state-focused,.k-upload .k-upload-files  .k-file:focus{
+        border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                box-shadow: none;
+                background-color: var(--tb-color-light-gray-98pct);
+                background-image: none;
+                border-bottom-width: 1px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-left-radius: initial;
+                border-bottom-right-radius: initial;
+                border-top-left-radius: initial;
+                border-top-right-radius: initial;
+                border-left-style: solid;
+                border-right-style: solid;
+                border-top-style: solid;
+                outline-color: var(--tb-color-medium-gray-66pct);
+                outline-style: solid;
+                outline-width: 2px;
+                outline-offset: -1px;
+        
+}
+    .k-upload .k-dropzone .k-upload-button-wrap .k-upload-button.k-hover,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button.k-state-hover,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button.k-state-hovered,.k-upload .k-dropzone .k-upload-button-wrap  .k-upload-button:hover{
+        background-color: var(--tb-color-dot-blue-primary);
+                background-image: none;
+                border-bottom-color: var(--tb-color-dark-blue-secondary);
+                border-left-color: var(--tb-color-dark-blue-secondary);
+                border-right-color: var(--tb-color-dark-blue-secondary);
+                border-top-color: var(--tb-color-dark-blue-secondary);
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+        
+}
+    .k-upload .k-upload-files .k-file.k-file-progress{
+        border-bottom-width: 1px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                border-top-style: solid;
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-right-style: solid;
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-left-style: solid;
+        
+}
+    .k-upload .k-dropzone.k-upload-dropzone .k-dropzone-hint{
+        color: transparent;
+        
+}
+    .k-external-dropzone .k-dropzone-inner .k-dropzone-hint{
+        color: var(--tb-color-neutral-gray-secondary);
+                display: block;
+        
+}
+    .k-external-dropzone .k-dropzone-inner .k-dropzone-note{
+        color: var(--tb-color-neutral-gray-secondary);
+                display: block;
+        
+}
+    .k-external-dropzone .k-dropzone-inner .k-dropzone-icon.k-icon.k-i-upload{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-external-dropzone .k-dropzone-inner{
+        color: var(--tb-color-neutral-gray-secondary);
+                background-color: var(--tb-color-light-gray-98pct);
+                background-image: none;
+                border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-color: transparent;
+                border-left-color: transparent;
+                border-right-color: transparent;
+                border-top-color: transparent;
+        
+}
+    .k-upload .k-upload-files .k-file .k-file-single .k-upload-actions .k-button.k-button-md.k-button-flat.k-button-flat-base.k-rounded-md.k-icon-button.k-upload-action{
+        border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+        
+}
+    .k-upload .k-upload-files .k-file .k-file-single .k-file-info .k-file-size{
+                        @extend %tb-typography-dot-font-size-point-7-rem;
+      
+}
+    .k-combobox.k-input.k-invalid.k-state-focus-within::after, .k-combobox.k-input.ng-invalid.ng-touched.k-state-focus-within::after, .k-combobox.k-input.ng-invalid.ng-dirty.k-state-focus-within::after, .k-combobox.k-input.k-invalid:focus-within::after, .k-combobox.k-input.ng-invalid.ng-touched:focus-within::after, .k-combobox.k-input.ng-invalid.ng-dirty:focus-within::after{
+        border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+        
+}
+    .k-numerictextbox .k-input-spinner.k-spin-button{
+        visibility: visible;
+        
+}
+    .k-numerictextbox.k-hover, .k-numerictextbox.k-state-hover, .k-numerictextbox.k-state-hovered, .k-numerictextbox:hover{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+        
+}
+    .k-numerictextbox.k-state-focus-within::after, .k-numerictextbox:focus-within::after{
+        border-bottom-left-radius: var(--tb-dot-border-radius-small);
+                border-bottom-right-radius: var(--tb-dot-border-radius-small);
+                border-top-left-radius: var(--tb-dot-border-radius-small);
+                border-top-right-radius: var(--tb-dot-border-radius-small);
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+        
+}
+    .k-numerictextbox.k-state-focus-within.k-input, .k-numerictextbox:focus-within.k-input{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                outline-style: solid;
+                outline-width: 2px;
+        
+}
+    .k-numerictextbox.k-state-focus-within, .k-numerictextbox:focus-within{
+        border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+                outline-color: var(--tb-color-dot-blue-primary);
+                outline-offset: -1px;
+        
+}
+    .k-numerictextbox.k-invalid.k-state-focus-within::after, .k-numerictextbox.ng-invalid.ng-touched.k-state-focus-within::after, .k-numerictextbox.ng-invalid.ng-dirty.k-state-focus-within::after, .k-numerictextbox.k-invalid:focus-within::after, .k-numerictextbox.ng-invalid.ng-touched:focus-within::after, .k-numerictextbox.ng-invalid.ng-dirty:focus-within::after{
+        border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+        
+}
+    .k-numerictextbox.k-disabled .k-input-spinner.k-spin-button .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-spinner-decrease, .k-numerictextbox.k-state-disabled .k-input-spinner.k-spin-button .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-spinner-decrease, .k-numerictextbox:disabled .k-input-spinner.k-spin-button .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-spinner-decrease{
+        background-color: var(--tb-color-white-primary);
+                background-image: linear-gradient(var(--tb-color-light-gray-95pct), var(--tb-color-light-gray-95pct));
+        
+}
+    .k-numerictextbox.k-disabled .k-input-spinner.k-spin-button .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-spinner-increase, .k-numerictextbox.k-state-disabled .k-input-spinner.k-spin-button .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-spinner-increase, .k-numerictextbox:disabled .k-input-spinner.k-spin-button .k-button.k-button-md.k-button-solid.k-button-solid-base.k-icon-button.k-spinner-increase{
+        background-color: var(--tb-color-white-primary);
+                background-image: linear-gradient(var(--tb-color-light-gray-95pct), var(--tb-color-light-gray-95pct));
+        
+}
+    .k-numerictextbox .k-input-inner{
+        border-bottom-color: inherit;
+                border-bottom-style: solid;
+                border-bottom-width: 0px;
+                border-left-color: inherit;
+                border-left-style: solid;
+                border-left-width: 0px;
+                border-right-color: inherit;
+                border-right-style: solid;
+                border-right-width: 0px;
+                border-top-color: inherit;
+                border-top-style: solid;
+                border-top-width: 0px;
+        
+}
+    .k-numerictextbox.k-invalid.k-input, .k-numerictextbox.ng-invalid.ng-touched.k-input, .k-numerictextbox.ng-invalid.ng-dirty.k-input{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+        
+}
+    .k-numerictextbox.k-invalid.k-state-focus-within, .k-numerictextbox.ng-invalid.ng-touched.k-state-focus-within, .k-numerictextbox.ng-invalid.ng-dirty.k-state-focus-within, .k-numerictextbox.k-invalid:focus-within, .k-numerictextbox.ng-invalid.ng-touched:focus-within, .k-numerictextbox.ng-invalid.ng-dirty:focus-within{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-numerictextbox.k-invalid.k-state-focus-within.k-input, .k-numerictextbox.ng-invalid.ng-touched.k-state-focus-within.k-input, .k-numerictextbox.ng-invalid.ng-dirty.k-state-focus-within.k-input, .k-numerictextbox.k-invalid:focus-within.k-input, .k-numerictextbox.ng-invalid.ng-touched:focus-within.k-input, .k-numerictextbox.ng-invalid.ng-dirty:focus-within.k-input{
+        outline-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-input.k-invalid.k-focus::after, .k-input.ng-invalid.ng-touched.k-focus::after, .k-input.ng-invalid.ng-dirty.k-focus::after, .k-input.k-invalid.k-state-focus::after, .k-input.k-invalid.k-state-focused::after, .k-input.k-invalid:focus::after, .k-input.ng-invalid.ng-touched.k-state-focus::after, .k-input.ng-invalid.ng-touched.k-state-focused::after, .k-input.ng-invalid.ng-touched:focus::after, .k-input.ng-invalid.ng-dirty.k-state-focus::after, .k-input.ng-invalid.ng-dirty.k-state-focused::after, .k-input.ng-invalid.ng-dirty:focus::after{
+        border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+                border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+        
+}
+    .k-input.k-invalid.k-focus, .k-input.ng-invalid.ng-touched.k-focus, .k-input.ng-invalid.ng-dirty.k-focus, .k-input.k-invalid.k-state-focus, .k-input.k-invalid.k-state-focused, .k-input.k-invalid:focus, .k-input.ng-invalid.ng-touched.k-state-focus, .k-input.ng-invalid.ng-touched.k-state-focused, .k-input.ng-invalid.ng-touched:focus, .k-input.ng-invalid.ng-dirty.k-state-focus, .k-input.ng-invalid.ng-dirty.k-state-focused, .k-input.ng-invalid.ng-dirty:focus{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                outline-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-numerictextbox .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-textarea .k-input-inner{
+        color: var(--tb-color-dark-gray-25pct);
+        
+}
+    .k-combobox.k-input .k-input-inner::placeholder{
+        color: var(--tb-color-medium-gray-43pct);
+        
+}
+    .k-combobox.k-input.k-state-focus-within, .k-combobox.k-input:focus-within{
+        border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+        
+}
+    .k-combobox.k-input.k-state-focus-within::after, .k-combobox.k-input:focus-within::after{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                border-bottom-left-radius: var(--tb-dot-border-radius-small);
+                border-bottom-right-radius: var(--tb-dot-border-radius-small);
+                border-top-left-radius: var(--tb-dot-border-radius-small);
+                border-top-right-radius: var(--tb-dot-border-radius-small);
+        
+}
+    .k-combobox.k-input.k-invalid.k-state-focus-within, .k-combobox.k-input.ng-invalid.ng-touched.k-state-focus-within, .k-combobox.k-input.ng-invalid.ng-dirty.k-state-focus-within, .k-combobox.k-input.k-invalid:focus-within, .k-combobox.k-input.ng-invalid.ng-touched:focus-within, .k-combobox.k-input.ng-invalid.ng-dirty:focus-within{
+        border-bottom-color: var(--tb-color-crimson-secondary);
+                border-left-color: var(--tb-color-crimson-secondary);
+                border-right-color: var(--tb-color-crimson-secondary);
+                border-top-color: var(--tb-color-crimson-secondary);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+        
+}
+    .k-combobox.k-input.k-disabled .k-input-button, .k-combobox.k-input.k-state-disabled .k-input-button, .k-combobox.k-input:disabled .k-input-button{
+        background-color: var(--tb-color-white-primary);
+                background-image: linear-gradient(var(--tb-color-light-gray-95pct), var(--tb-color-light-gray-95pct));
+        
+}
+    .k-numerictextbox.k-input-solid{
+        background-color: var(--tb-color-white-primary);
+        
+}
+    .k-numerictextbox{
+        background-image: none;
+        
+}
+    .k-external-dropzone{
+        border-bottom-left-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-right-radius: var(--tb-dot-border-radius-medium);
+                border-top-left-radius: var(--tb-dot-border-radius-medium);
+                border-top-right-radius: var(--tb-dot-border-radius-medium);
+                border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-style: solid;
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-left-style: solid;
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-right-style: solid;
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                border-top-style: solid;
+        
+}
+    .k-external-dropzone.k-external-dropzone-hover{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-style: solid;
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-left-style: solid;
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-right-style: solid;
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                border-top-style: solid;
+        
+}
+    .k-input.k-focus::after, .k-input.k-state-focus::after, .k-input.k-state-focused::after, .k-input:focus::after{
+        border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+        
+}
+    .k-maskedtextbox.k-state-focus-within, .k-maskedtextbox:focus-within{
+        border-bottom-color: var(--tb-color-dot-blue-primary);
+                border-left-color: var(--tb-color-dot-blue-primary);
+                border-right-color: var(--tb-color-dot-blue-primary);
+                border-top-color: var(--tb-color-dot-blue-primary);
+                outline-color: var(--tb-color-dot-blue-primary);
+        
+}
+    .k-maskedtextbox.k-state-focus-within.k-input, .k-maskedtextbox:focus-within.k-input{
+        outline-style: solid;
+                outline-width: 2px;
+        
+}
+    .k-maskedtextbox.k-state-focus-within::after, .k-maskedtextbox:focus-within::after{
+        border-bottom-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+                border-top-width: 0px;
+                border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+        
+}
+    .k-maskedtextbox.k-invalid.k-state-focus-within, .k-maskedtextbox.ng-invalid.ng-touched.k-state-focus-within, .k-maskedtextbox.ng-invalid.ng-dirty.k-state-focus-within, .k-maskedtextbox.k-invalid:focus-within, .k-maskedtextbox.ng-invalid.ng-touched:focus-within, .k-maskedtextbox.ng-invalid.ng-dirty:focus-within{
+        outline-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-textarea.k-invalid.k-state-focus-within, .k-textarea.ng-invalid.ng-touched.k-state-focus-within, .k-textarea.ng-invalid.ng-dirty.k-state-focus-within, .k-textarea.k-invalid:focus-within, .k-textarea.ng-invalid.ng-touched:focus-within, .k-textarea.ng-invalid.ng-dirty:focus-within{
+        outline-color: var(--tb-color-crimson-secondary);
+        
+}
+    .k-combobox.k-input .k-input-button{
+        border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+                border-left-style: solid;
+                border-left-width: 1px;
+        
+}
+    .k-upload .k-upload-files .k-file .k-file-single{
+        display: flex;
+        
+}
+    .k-upload .k-upload-files .k-file{
+        border-top-color: var(--tb-color-medium-gray-66pct);
+                border-top-style: solid;
+                border-top-width: 0px;
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-right-style: solid;
+                border-right-width: 0px;
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-left-style: solid;
+                border-left-width: 0px;
+        
+}
+    .k-upload .k-upload-files{
+        border-bottom-width: 1px;
+                border-left-width: 1px;
+                border-right-width: 1px;
+                border-top-width: 1px;
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-left-color: var(--tb-color-medium-gray-66pct);
+                border-right-color: var(--tb-color-medium-gray-66pct);
+                border-top-color: var(--tb-color-medium-gray-66pct);
+        
+}
+    .k-checkbox-wrap .k-checkbox.k-checked,.k-checkbox-wrap  .k-checkbox:checked{
+        background-color: var(--tb-color-light-blue-secondary);
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='square' stroke-linejoin='square' stroke-width='2' d='M3,8 l3,3 l7-7'/%3e%3c/svg%3e");
+        
+}
+    .k-dialog-wrapper .k-window.k-dialog .k-window-content.k-dialog-content{
+        color: var(--tb-color-black);
+        
+}
+    .k-dialog-wrapper .k-window.k-dialog .k-window-titlebar.k-dialog-titlebar .k-window-title.k-dialog-title{
+        color: var(--tb-color-black);
+        
+}
+    .k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row >td{
+        border-bottom-color: inherit;
+                border-left-color: inherit;
+                border-right-color: inherit;
+                border-top-color: inherit;
+                color: var(--tb-color-default-text);
+        
+}
+    .k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row.k-selected >td{
+        background-color: var(--tb-color-very-light-blue);
+                background-image: none;
+        
+}
+    .k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row.k-selected td.k-focus,.k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row.k-selected  td.k-state-focus,.k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row.k-selected  td.k-state-focused,.k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row.k-selected  td:focus{
+        background-color: var(--tb-color-very-light-blue-darken-10pct);
+                background-image: none;
+        
+}
+    .k-grid.k-grid-md .k-table .k-table-tbody .k-master-row.k-table-row.k-selected.k-hover,.k-grid.k-grid-md .k-table .k-table-tbody  .k-master-row.k-table-row.k-selected.k-state-hover,.k-grid.k-grid-md .k-table .k-table-tbody  .k-master-row.k-table-row.k-selected.k-state-hovered,.k-grid.k-grid-md .k-table .k-table-tbody  .k-master-row.k-table-row.k-selected:hover{
+        background-color: var(--tb-color-very-light-blue-darken-10pct);
+                background-image: none;
+        
+}
+    .k-grid.k-grid-md .k-table .k-table-tbody .k-master-row.k-table-row.k-selected.k-hover >td,.k-grid.k-grid-md .k-table .k-table-tbody  .k-master-row.k-table-row.k-selected.k-state-hover >td,.k-grid.k-grid-md .k-table .k-table-tbody  .k-master-row.k-table-row.k-selected.k-state-hovered >td,.k-grid.k-grid-md .k-table .k-table-tbody  .k-master-row.k-table-row.k-selected:hover >td{
+        background-color: initial;
+                background-image: none;
+        
+}
+    .k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row td.k-focus,.k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row  td.k-state-focus,.k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row  td.k-state-focused,.k-grid.k-grid-md .k-table-tbody .k-master-row.k-table-row  td:focus{
+        border-left-color: transparent;
+                border-left-style: solid;
+                border-left-width: 0px;
+                border-bottom-color: transparent;
+                border-right-color: transparent;
+                border-top-color: transparent;
+        
+}
+    .k-grid.k-grid-md .k-table .k-table-tbody .k-table-row.k-master-row{
+        color: var(--tb-color-default-text);
+                border-bottom-color: var(--tb-color-medium-gray-66pct);
+                border-bottom-style: solid;
+                border-bottom-width: 1px;
+                border-right-color: inherit;
+                border-right-style: solid;
+                border-right-width: 0px;
+                border-top-color: inherit;
+                border-top-style: solid;
+                border-top-width: 0px;
+                border-left-color: inherit;
+                border-left-style: solid;
+                border-left-width: 0px;
+        
+}
+    .k-grid.k-grid-md .k-table .k-table-tbody .k-table-row.k-master-row.k-hover,.k-grid.k-grid-md .k-table .k-table-tbody  .k-table-row.k-master-row.k-state-hover,.k-grid.k-grid-md .k-table .k-table-tbody  .k-table-row.k-master-row.k-state-hovered,.k-grid.k-grid-md .k-table .k-table-tbody  .k-table-row.k-master-row:hover{
+        background-color: var(--tb-color-very-light-blue-45pct);
+                background-image: none;
+        
+}
+    .k-grid.k-grid-md .k-table .k-table-tbody .k-master-row.k-table-row.k-selected{
+        background-color: var(--tb-color-very-light-blue);
+                background-image: none;
+        
+}
+    .k-grid.k-grid-md .k-table-thead .k-table-row,.k-grid.k-grid-md  .k-grid-header .k-table-row{
+        color: var(--tb-color-default-text);
+        
+}
+    .k-grid.k-grid-md .k-table .k-table-tbody .k-master-row.k-table-row.k-selected >td{
+        color: var(--tb-color-default-text);
+        
+}
