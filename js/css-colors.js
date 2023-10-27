@@ -11,7 +11,7 @@ const colors = {
     textGrayBold: styles.getPropertyValue('--color-text-gray-bold'),
     textGray: styles.getPropertyValue('--color-text-gray'),
     textGrayLight: styles.getPropertyValue('--color-text-gray-light'),
-    textGrayFaint: styles.getPropertyValue('--color-text-gray-faint)'),
+    textGrayFaint: styles.getPropertyValue('--color-text-gray-faint'),
     textBrand: styles.getPropertyValue('--color-brand-primary'),
     textAffirm: styles.getPropertyValue('--color-text-affirm'),
     textAffirmDark: styles.getPropertyValue('--color-text-affirm-dark'),
