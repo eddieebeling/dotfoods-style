@@ -1,6 +1,6 @@
 {
   "name": "dotfoods-style",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Dot Foods Brand Colors and Pattern Library",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,5 @@
   "keywords": [],
   "author": "Eddie Ebeling <eddie.ebeling@dotfoods.com>",
   "license": "MIT",
-  "homepage": "https://www.dotfoods.com/",
-  "dependencies": {
-    "gulp": "^4.0.2"
-  }
+  "homepage": "https://www.dotfoods.com/"
 }
